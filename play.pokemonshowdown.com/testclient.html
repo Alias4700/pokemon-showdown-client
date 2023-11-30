@@ -16,7 +16,7 @@
 		<script>
 			function loadRemoteData(src) {
 				var scriptEl = document.createElement('script');
-				scriptEl.src = src.replace(/.*\/?data\//g, 'C:\Users\David Iorga\Documents\GitHub\pokemon-showdown\data');
+				scriptEl.src = src.replace(/.*\/?data\//g, 'http://localhost:8000/data');
 				document.head.appendChild(scriptEl);
 			}
 			Config.testclient = true;
